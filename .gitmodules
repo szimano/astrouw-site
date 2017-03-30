@@ -1,0 +1,3 @@
+[submodule "themes/hugo-editorial"]
+	path = themes/hugo-editorial
+	url = git@github.com:juh2/hugo-editorial.git
