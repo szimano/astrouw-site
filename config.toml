@@ -4,47 +4,47 @@ title = "Editorial by HTML5 UP"
 theme = "hugo-editorial"
 Paginate = 3
 
-# DefaultContentLanguage = "en"
-# DefaultContentLanguageInSubdir = true
+DefaultContentLanguage = "pl"
+DefaultContentLanguageInSubdir = false
 
 [Languages]
 [Languages.en]
-	weight = 0
+	weight = 1
 	languageName = "English"
-	title = "Astronomical Observatory University of Warsaw"
+	title = "Ostrowik Observatory"
 
 [[Languages.en.menu.main]]
-	url 	= "/"
+	url 	= "/en"
 	name 	= "Home"
 	weight	= 0
 
 [Languages.pl]
-	weight = 1
-	languageName = "Polski"
-	title = "Obserwatorium Astronomiczne Uniwersytetu Warszawskiego"
+	weight = 0
+	languageName = "Polish"
+	title = "Obserwatorium w Ostrowiku"
 
 [[Languages.pl.menu.main]]
-	url 	= "/pl"
-	name 	= "Start"
+	url 	= "/"
+	name 	= "Home"
 	weight	= 0
 
 
 [params]
-	fronttitle = "Hi, I’m Editorial<br />by HTML5 UP"
-	frontsubline = "A free and fully responsive site template"
-	frontintro = "Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam."
-	learnmore = "Learn More"
+	fronttitle = "Ostrowik"
+	frontsubline = "Stacja Obserwacyjna Obserwatorium Astronomicznego UW"
+	frontintro = "."
+	learnmore = "Więcej"
 	learnmorelink = "/"
 
 [params.contact]
-	title 		= "Get in touch"
-	intro 		= "Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam."
-	email 		= "johndoe@example.com"
-	phone 		= "000 000 000"
-	address 	= "Foostreet<br />12345 Bartown"
+	title 		= "Kontakt"
+	intro 		= ""
+	email 		= "msitek@astrouw.edu.pl"
+	phone 		= "+48 22 789 79 66"
+	address 	= "Ostrowik 15"
 
 [params.miniposts]
-	title 		= "News"
+	title 		= "Aktualności"
 
 [params.nav]
 	title 		= "Menu"
@@ -70,11 +70,3 @@ Paginate = 3
  	name = "home"
 	url = "/"
 	weight = -200
-
-[[menu.main]]
-    name = "dla studentów"
-    weight = 100
-
-[[menu.main]]
-    name = "informacje ogólne"
-    weight = 200
