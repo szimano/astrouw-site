@@ -4,47 +4,47 @@ title = "Editorial by HTML5 UP"
 theme = "hugo-editorial"
 Paginate = 3
 
-# DefaultContentLanguage = "en"
-# DefaultContentLanguageInSubdir = true
+DefaultContentLanguage = "pl"
+DefaultContentLanguageInSubdir = false
 
 [Languages]
 [Languages.en]
-	weight = 0
+	weight = 1
 	languageName = "English"
-	title = "Editorial by HTML5 UP"
+	title = "Ostrowik Observatory"
 
 [[Languages.en.menu.main]]
+	url 	= "/en"
+	name 	= "Home"
+	weight	= 0
+
+[Languages.pl]
+	weight = 0
+	languageName = "Polish"
+	title = "Obserwatorium w Ostrowiku"
+
+[[Languages.pl.menu.main]]
 	url 	= "/"
 	name 	= "Home"
 	weight	= 0
 
-[Languages.de]
-	weight = 1
-	languageName = "Deutsch"
-	title = "Editorial von HTML5 UP"
-
-[[Languages.de.menu.main]]
-	url 	= "/de"
-	name 	= "Startseite"
-	weight	= 0
-
 
 [params]
-	fronttitle = "Hi, I’m Editorial<br />by HTML5 UP"
-	frontsubline = "A free and fully responsive site template"
-	frontintro = "Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam."
-	learnmore = "Learn More"
+	fronttitle = "Ostrowik"
+	frontsubline = "Stacja Obserwacyjna Obserwatorium Astronomicznego UW"
+	frontintro = "."
+	learnmore = "Więcej"
 	learnmorelink = "/"
 
 [params.contact]
-	title 		= "Get in touch"
-	intro 		= "Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam."
-	email 		= "johndoe@example.com"
-	phone 		= "000 000 000"
-	address 	= "Foostreet<br />12345 Bartown"
+	title 		= "Kontakt"
+	intro 		= ""
+	email 		= "msitek@astrouw.edu.pl"
+	phone 		= "+48 22 789 79 66"
+	address 	= "Ostrowik 15"
 
 [params.miniposts]
-	title 		= "Lorem ipsum"
+	title 		= "Aktualności"
 
 [params.nav]
 	title 		= "Menu"
