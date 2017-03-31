@@ -11,21 +11,21 @@ Paginate = 3
 [Languages.en]
 	weight = 0
 	languageName = "English"
-	title = "Editorial by HTML5 UP"
+	title = "Astronomical Observatory University of Warsaw"
 
 [[Languages.en.menu.main]]
 	url 	= "/"
 	name 	= "Home"
 	weight	= 0
 
-[Languages.de]
+[Languages.pl]
 	weight = 1
-	languageName = "Deutsch"
-	title = "Editorial von HTML5 UP"
+	languageName = "Polski"
+	title = "Obserwatorium Astronomiczne Uniwersytetu Warszawskiego"
 
-[[Languages.de.menu.main]]
-	url 	= "/de"
-	name 	= "Startseite"
+[[Languages.pl.menu.main]]
+	url 	= "/pl"
+	name 	= "Start"
 	weight	= 0
 
 
@@ -44,7 +44,7 @@ Paginate = 3
 	address 	= "Foostreet<br />12345 Bartown"
 
 [params.miniposts]
-	title 		= "Aktualności"
+	title 		= "News"
 
 [params.nav]
 	title 		= "Menu"
