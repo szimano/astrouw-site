@@ -44,7 +44,7 @@ Paginate = 3
 	address 	= "Foostreet<br />12345 Bartown"
 
 [params.miniposts]
-	title 		= "Lorem ipsum"
+	title 		= "Aktualności"
 
 [params.nav]
 	title 		= "Menu"
@@ -70,3 +70,11 @@ Paginate = 3
  	name = "home"
 	url = "/"
 	weight = -200
+
+[[menu.main]]
+    name = "dla studentów"
+    weight = 100
+
+[[menu.main]]
+    name = "informacje ogólne"
+    weight = 200

@@ -1,11 +1,11 @@
 ---
-date: "2016-10-22T16:40:13+02:00"
 title: "Doktoranci OAUW"
 image:
 - /images/pic03.jpg
 menu:
     main:
-        parent: ' Dla Studentów'
+        parent: 'dla studentów'
+        weight: 100
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
