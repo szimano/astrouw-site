@@ -4,8 +4,8 @@ image:
 - /images/pic03.jpg
 menu:
     main:
-        parent: 'informacje ogólne'
-        weight: 200
+        parent: 'informacje'
+        weight: 400
 ---
 
 Obserwatorium Astronomiczne Uniwersytetu Warszawskiego (OAUW) jest placówką naukową działającą nieprzerwanie od ponad

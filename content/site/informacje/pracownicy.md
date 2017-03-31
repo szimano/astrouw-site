@@ -4,8 +4,8 @@ image:
 - /images/pic03.jpg
 menu:
     main:
-        parent: 'informacje ogólne'
-        weight: 100
+        parent: 'informacje'
+        weight: 300
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

@@ -69,4 +69,15 @@ DefaultContentLanguageInSubdir = false
 [[menu.main]]
  	name = "home"
 	url = "/"
-	weight = -200
+	weight = -100
+
+[[menu.main]]
+ 	name = "informacje"
+	weight = 10
+	identifier = "informacje"
+
+[[menu.main]]
+ 	name = "dla studentów"
+	weight = 300
+	identifier = "dla studentów"
+
